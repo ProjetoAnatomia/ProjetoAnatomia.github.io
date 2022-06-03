@@ -9,23 +9,21 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" >
       <div class="container-fluid">
-        <a class="navbar-brand" href="./paginas/learning.html">Anatomy Learning</a>
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Paginas
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="./paginas/atlas.html">Atlas-3D</a></li>
+            <li><a class="dropdown-item" href="./paginas/digital.html">BioDigital Human</a></li>
+            <li><a class="dropdown-item" href="./paginas/esqueleto.html">Esqueleto|Anatomia 3D</a></li>
+            <li><a class="dropdown-item" href="./paginas/learning.html">Anatomy Learning</a></li>
+          </ul>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./paginas/atlas.html">Atlas-3D</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./paginas/esqueleto.html">Esqueleto|Anatomia 3D</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./paginas/digital.html">BioDigital Human</a>
-            </li>
-          </ul>
-        </div>
+
       </div>
     </nav>
 
@@ -42,6 +40,8 @@
     Porém as vezes para encontrar tais apps que podem nos auxiliar, é necessário fazer uma boa pesquisapara para achá-los e às vezes<br>
    nem se acha.</p>
 
-   
+   <script src="./js/dist/dropdown.js"></script>
+   <script src="./js/src/dropdown.js"></script>
+   <script src="./js/bootstrap.bundle.js"></script>
   </body>
 </html>

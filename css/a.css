@@ -2,13 +2,20 @@ p{
     max-width: 720px;
     margin-left: 50px;
     font-size: medium;
+    font-family: 'Times New Roman';
     
 }
 h1{
     text-align: center;
     font-size: 70px;
+    font-family: arial;
 
 }
 body{
     background-image: linear-gradient( 150deg, lightgray,white );
+    background: 100%;
+}
+h2{
+    margin-left: 50px;
+    font-family: arial;
 }
