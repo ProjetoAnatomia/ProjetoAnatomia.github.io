@@ -1,17 +1,14 @@
-body{
-    background-color: lightgray;
-}
 p{
-    font-family: Verdana;
-    margin-left: 20px;
     max-width: 720px;
+    margin-left: 50px;
+    font-size: medium;
+    
 }
 h1{
     text-align: center;
-    font-size: 60px;
-    font-family: Arial;
-    font-weight: bold;
+    font-size: 70px;
+
 }
-.cor{
-    color: blue;
+body{
+    background-image: linear-gradient( 150deg, lightgray,white );
 }
