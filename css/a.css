@@ -1,21 +1,26 @@
 p{
+    text-align: justify;
     max-width: 720px;
     margin-left: 50px;
-    font-size: medium;
+    font-size: 20px;
     font-family: 'Times New Roman';
+    text-indent: 40px;
+    
     
 }
 h1{
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
     font-family: arial;
 
 }
 body{
     background-image: linear-gradient( 150deg, lightgray,white );
     background: 100%;
+    height: 100%;
 }
 h2{
+    font-size: 40px;
     margin-left: 50px;
     font-family: arial;
 }
