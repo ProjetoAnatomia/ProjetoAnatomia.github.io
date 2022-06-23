@@ -24,3 +24,17 @@ h2{
     margin-left: 50px;
     font-family: arial;
 }
+ol{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-indent: 40px;
+}
+.home{
+    margin-left: 20px;
+}
+img{
+    margin-right: 100px;
+    border: double black 20px;
+    margin-left: 30px;
+}
