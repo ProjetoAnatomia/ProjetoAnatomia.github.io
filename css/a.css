@@ -38,6 +38,9 @@ img{
     border: double black 20px;
     margin-left: 30px;
 }
+h6{
+    margin-left: 50px;
+}
 .baixar{
     margin-left: 50px;
     color: black;
